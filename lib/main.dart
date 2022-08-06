@@ -22,13 +22,10 @@ class MyApp extends StatelessWidget {
         title: 'Media Player',
         theme: ThemeData(
           appBarTheme: const AppBarTheme(),
-          primarySwatch: Colors.purple,
+          primarySwatch: Colors.indigo,
           accentColor: Colors.deepOrange,
         ),
         home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Remote PS'),
-          ),
           body: Routes.loginRoute(context),
         ),
       ),
