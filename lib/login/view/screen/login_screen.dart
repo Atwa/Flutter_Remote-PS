@@ -103,7 +103,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: <Widget>[
                         const Text(
                           'Does not have account?',
-                          style: TextStyle(fontSize: 18, color: Colors.black),
+                          style: TextStyle(fontSize: 18, color: Colors.white),
                         ),
                         TextButton(
                           child: const Text(
